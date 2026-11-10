@@ -712,6 +712,16 @@ a:focus-visible {
   gap: 20px;
 }
 
+.info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info-column .info-card {
+  flex: 1;
+}
+
 .skills-list {
   display: flex;
   flex-wrap: wrap;
